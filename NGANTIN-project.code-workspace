@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../KULIAH1/konsep_pemrogrman"
+		},
+		{
+			"path": "../KULIAH1/wdw/TUGAS"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "NGANTIN-project"
+	}
+}

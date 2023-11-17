@@ -1,12 +1,123 @@
-/* *{
-    margin : 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none; 
-    border : none;
-    text-decoration: none;
+.headline {
+  font-size: 80px;
+  color: white;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-    color: #ffffff;
-} */
+.navbar {
+  /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+  box-shadow: 0 3px 9px 0px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+.jumbotron2 {
+  margin-top: 4rem;
+  width: 100%;
+  padding: 100px 0;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  text-shadow: none;
+}
+.container {
+  text-align: center;
+  max-width: 70%;
+  background-color: white;
+  background: transparent;
+  margin: 4rem 8remrem;
+  padding: 2%;
+}
+.custom-button3 {
+  background-color: rgba(2, 2, 2, 0.4);
+  font-size: 30px;
+  margin-top: 3rem;
+  padding: 0.6rem 2.3rem;
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
+.custom-button3:hover {
+  background-color: rgba(9, 9, 9, 0.7);
+  font-size: 30px;
+  margin-top: 3rem;
+  padding: 0.6rem 2.3rem;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  transition: 0.3s;
+}
+.head-alasan {
+  padding-top: 1.5rem;
+}
+.jumbotron {
+  margin-bottom: 3rem;
+}
+.custom-button1 {
+  background-color: black;
+  font-family: "Poppins";
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 1rem 1rem 0rem 4rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  border-radius: 30px;
+}
+.custom-button1:hover {
+  background-color: rgb(235, 235, 235);
+  font-family: "Poppins";
+  color: black;
+  font-weight: 700;
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 1rem 1rem 0rem 4rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.4s;
+  opacity: 0.8;
+}
+.custom-button2 {
+  background-color: rgb(235, 235, 235);
+  font-family: "Poppins";
+  border: solid 2px black;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.alasan {
+  font-size: 20px;
+}
+.alasan2 {
+  font-size: 20px;
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+#why {
+  margin: 3.2rem 9rem 0 8rem;
+}
+.konten-why {
+  margin-top: 1rem;
+}
+.konten-why2 {
+  margin-top: 5rem;
+}
+#pros {
+  margin: 3.2rem 9rem 4rem 8rem;
+}
+footer {
+  height: 50px;
+  background-color: #fff;
+}

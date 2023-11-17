@@ -1,0 +1,74 @@
+/* LOGIN */
+.body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f6d94b;
+  margin-bottom: 3rem;
+}
+.kiri {
+  background-image: url("image/allan-lainez-dwt1fsl73LU-unsplash.jpg"), no-repeat, cover;
+}
+.container-login {
+  /* margin: 8rem 2rem; */
+  display: flex;
+  padding: 4rem 4rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 480px;
+  margin-inline: 8rem;
+  color: #ccc;
+  background-color: #00235e;
+}
+.input-box {
+  position: relative;
+  width: 100%;
+  margin: 1rem 0;
+  height: 40px;
+}
+.input-box input {
+  width: 100%;
+  height: 50px;
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+  color: #00235e;
+  opacity: 60%;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+.input-box i {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  font-size: 20px;
+  color: #00235e;
+}
+button {
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 40px;
+  color: #00235e;
+  background-color: #e1bf0c;
+  padding: 5px 4rem;
+  margin-top: 3.5rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.kanan {
+  display: flex;
+  background-color: rgba(232, 224, 74, 0.447);
+}
+.kanan img {
+  justify-content: center;
+}
