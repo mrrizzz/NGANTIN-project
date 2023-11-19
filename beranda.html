@@ -11,12 +11,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
     rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
   <link rel="stylesheet" href="index.css" />
+
 </head>
 
 <body>
+
   <!--NAVBAR-->
-  <section id="navbar">
+  <header id="navbar">
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -31,20 +36,22 @@
               <a class="nav-link mx-5" href="#">Toko</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-5" href="#">Tentang Kami</a>
+              <a class="nav-link mx-5" href="abousUs.html">Tentang Kami</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  </section>
+  </header>
   <!-- MAIN -->
-  <section id="main">
-    <div class="jumbotron" style="background-color: rgb(255, 255, 255)">
-      <div class="row align-items-center justify-content-center">
+  <section id="main" class="section">
+    <div class="jumbotron">
+      <div class=" row align-items-center justify-content-center">
         <div class="col-md-6 p-4">
-          <h1 class="display-4 fw-bolder mt-4 ms-5 ps-4 lh-base">PESAN MENU FAVORITMU SEKARANG, LEWAT <span
-              style="color: #002890">NGANTIN</span> SEMUA LEBIH MUDAH</h1>
+          <h1 class="display-4 fw-bolder mt-4 ms-5 ps-4 lh-base ">PESAN MENU FAVORITMU
+            SEKARANG, LEWAT
+            <span style="color: #002890">NGANTIN</span> SEMUA LEBIH MUDAH
+          </h1>
           <hr class="my-4 ms-4" />
           <button class="custom-button1">Lihat Toko</button>
           <button class="custom-button2">Beli Sekarang</button>
@@ -58,13 +65,12 @@
       <div />
   </section>
   <!-- WHY -->
-  <section id="Kenapa">
+  <section id="Kenapa" class="section animate__animated  animate__fadeInLeftBig">
     <div id="why">
 
       <div class="row">
         <p class="fs-2 fw-semibold">Mengapa menggunakan layanan kami?</p>
       </div>
-
       <div class="row justify-content-end konten-why ">
         <div class="col-md-6">
           <h2 class="fw-semibold head-alasan">1. PRAKTIS DAN EFISIEN</h2>
@@ -85,7 +91,7 @@
         </div>
         <span class="border-bottom border-2 border-black"></span>
       </div>
-      <div class="row justify-content-end konten-why2">
+      <div class="row justify-content-end konten-why">
         <div class="col-md-6">
           <h2 class="fw-semibold head-alasan">3. BERAGAM PILIHAN MAKANAN</h2>
         </div>
@@ -95,7 +101,7 @@
         </div>
         <span class="border-bottom border-2 border-black"></span>
       </div>
-      <div class="row justify-content-end konten-why2">
+      <div class="row justify-content-end konten-why">
         <div class="col-md-6">
           <h2 class="fw-semibold head-alasan">4. NILAI TAMBAH PADA TIAP PESANAN</h2">
         </div>
@@ -110,8 +116,8 @@
       <div />
   </section>
   <!--Poster-->
-  <section id="poster">
-    <div class="jumbotron2" style="background-image: url('image/Group 40.png'); height: 540px;">
+  <section id="poster" class="section">
+    <div class="jumbotron2">
       <div class="container">
         <h1 class="fw-bold headline">GET YOUR FAVORITE</h1>
         <h1 class="fw-bold headline">WE'LL MAKE IT EASIER</h1>
@@ -122,7 +128,7 @@
       <div />
   </section>
   <!--Prosedur-->
-  <section id="Pelayanan">
+  <section id="Pelayanan" class="section">
     <div id="pros">
 
       <div class="row">
@@ -143,7 +149,7 @@
         </div>
 
       </div>
-      <div class="row justify-content-end konten-why">
+      <div class="row justify-content-end konten-why2">
         <div class="col-md-6">
           <p style="font-weight: 500px; font-size: 40px;">3. Pilih Pembayaran</p>
           <p class="alasan2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aliquam repellat, ex vitae
@@ -161,14 +167,54 @@
     <div class="border mx-5 mb-5 border-dark border-2" style="margin-top: 4rem;">
       <div />
   </section>
-  <!--FOOTER-->
-  <section id="footer">
-    <footer class="text-dark text-center fw-bolder pt-2">
-      <p>Copyright &copy; 2023 all rights reserved by NGANTIN</p>
-  </section>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+  <div class="border-top border-dark border-2">
+    <div />
+    <!--FOOTER-->
+    <section id="footer">
+      <!-- <footer class="footer">
+        <div class="footer-text">
+          Hak Cipta &copy; 2023 Contoh Situs Web<br>
+          Alamat: Jalan Contoh No. 123, Kota Contoh
+        </div>
+        <div class="footer-icons">
+          <a href="#" class="footer-icon fab fa-facebook"><i class='bx bxl-facebook-square'></i></a>
+          <a href="#" class="footer-icon fab fa-twitter"></a>
+          <a href="#" class="footer-icon fab fa-instagram"></a>
+          <a href="#" class="footer-icon fab fa-youtube"></a>
+        </div>
+      </footer> -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3>Tentang Kami</h3>
+              <p>Perusahaan kami menyediakan layanan terbaik untuk perantara customer dan penjual.</p>
+            </div>
+            <div class="col">
+              <h3>Kontak</h3>
+              <p>Jl. Sukolilo Tengah No.123, East Java, Indonesia</p>
+              <p>Email: ngantinyuks@pens.id</p>
+              <p>Tel: +62 123 456 7890</p>
+            </div>
+            <div class="col">
+              <h3>Ikuti Kami</h3>
+              <p><i class='bx bxl-instagram-alt'></i><i class='bx bxl-facebook-square'></i>
+                <i class='bx bxl-twitter'></i>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>© 2023 Copyright all rights reserved by NGANTIN</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <script src="beranda.js"></script>
 </body>
 
 </html>

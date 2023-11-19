@@ -1,21 +1,26 @@
 /* LOGIN */
-.body {
-  display: flex;
+body {
   min-height: 100vh;
   margin: 0;
-  box-sizing: border-box;
 }
 p {
   font-size: 30px;
   font-weight: bold;
-  color: #f6d94b;
+  color: #00235e;
   margin-bottom: 3rem;
 }
-.kiri {
-  background-image: url("image/allan-lainez-dwt1fsl73LU-unsplash.jpg"), no-repeat, cover;
+body {
+  background-image: url("image/allan-lainez-dwt1fsl73LU-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container-login {
   /* margin: 8rem 2rem; */
+  margin-block: 8rem;
+  border: rgb(135, 116, 7) solid 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  backdrop-filter: blur(4px);
   display: flex;
   padding: 4rem 4rem;
   flex-direction: column;
@@ -24,7 +29,6 @@ p {
   width: 480px;
   margin-inline: 8rem;
   color: #ccc;
-  background-color: #00235e;
 }
 .input-box {
   position: relative;
@@ -33,6 +37,7 @@ p {
   height: 40px;
 }
 .input-box input {
+  background-color: #fcf9de;
   width: 100%;
   height: 50px;
   border-radius: 40px;
@@ -57,18 +62,24 @@ button {
   font-size: 24px;
   border-radius: 40px;
   color: #00235e;
-  background-color: #e1bf0c;
+  background-color: #fcf9de;
   padding: 5px 4rem;
   margin-top: 3.5rem;
   border: none;
   cursor: pointer;
   width: 100%;
+  transition: 0.3s ease;
 }
-
-.kanan {
-  display: flex;
-  background-color: rgba(232, 224, 74, 0.447);
-}
-.kanan img {
-  justify-content: center;
+button :hover {
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 40px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #00235e;
+  transition: 0.3s;
+  padding: 5px 4rem;
+  margin-top: 3.5rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
 }

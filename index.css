@@ -1,53 +1,48 @@
-.headline {
-  font-size: 80px;
-  color: white;
-}
+/* navbar*/
 .navbar {
   /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
   box-shadow: 0 3px 9px 0px rgba(0, 0, 0, 0.3);
   background-color: white;
 }
-.jumbotron2 {
-  margin-top: 4rem;
-  width: 100%;
-  padding: 100px 0;
-  background-size: cover;
-  color: rgb(255, 255, 255);
-  text-shadow: none;
+.navbar .nav-item {
+  margin-top: 0.5rem;
 }
-.container {
-  text-align: center;
-  max-width: 70%;
-  background-color: white;
-  background: transparent;
-  margin: 4rem 8remrem;
-  padding: 2%;
+.navbar .nav-item a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid #010101;
+  transform: scaleX(0);
+  transition: 0.2s linear;
 }
-.custom-button3 {
-  background-color: rgba(2, 2, 2, 0.4);
-  font-size: 30px;
-  margin-top: 3rem;
-  padding: 0.6rem 2.3rem;
-  border: none;
-  border-radius: 30px;
+.navbar .nav-item a:hover::after {
+  transform: scaleX(0.9);
+}
+/* main*/
+.headline {
+  font-size: 80px;
   color: white;
-}
-.custom-button3:hover {
-  background-color: rgba(9, 9, 9, 0.7);
-  font-size: 30px;
-  margin-top: 3rem;
-  padding: 0.6rem 2.3rem;
-  border: none;
-  border-radius: 30px;
-  color: white;
-  transition: 0.3s;
-}
-.head-alasan {
-  padding-top: 1.5rem;
 }
 .jumbotron {
   margin-bottom: 3rem;
 }
+/* .jumbotron {
+  animation-duration: 1.5s;
+} */
+
+/* Atur properti awal elemen yang akan dianimasikan */
+.jumbotron {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Tambahkan kelas yang akan memicu animasi */
+.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .custom-button1 {
   background-color: black;
   font-family: "Poppins";
@@ -97,27 +92,135 @@
   cursor: pointer;
   border-radius: 30px;
 }
+/*why*/
+#why {
+  margin: 3.2rem 9rem 0 8rem;
+  animation-duration: 5s;
+}
+.head-alasan {
+  padding-top: 1.5rem;
+}
+.konten-why {
+  margin-top: 1rem;
+}
 .alasan {
   font-size: 20px;
 }
+/*jumbotron2*/
+.jumbotron2 {
+  margin-top: 4rem;
+  width: 100%;
+  padding: 100px 0;
+  background-size: cover;
+  text-shadow: none;
+  background-image: url("image/Group 40.png");
+  height: 540px;
+}
+.container {
+  text-align: center;
+  max-width: 70%;
+  background-color: white;
+  background: transparent;
+  /* margin-block: 0rem; */
+  padding: 2%;
+}
+.custom-button3 {
+  background-color: rgba(2, 2, 2, 0.4);
+  font-size: 30px;
+  margin-top: 3rem;
+  padding: 0.6rem 2.3rem;
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
+.custom-button3:hover {
+  background-color: rgba(9, 9, 9, 0.7);
+  font-size: 30px;
+  margin-top: 3rem;
+  padding: 0.6rem 2.3rem;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  transition: 0.3s;
+}
+
+/*prosedur*/
 .alasan2 {
   font-size: 20px;
   margin-left: 3rem;
   margin-right: 2rem;
 }
-#why {
-  margin: 3.2rem 9rem 0 8rem;
-}
-.konten-why {
-  margin-top: 1rem;
-}
 .konten-why2 {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 #pros {
   margin: 3.2rem 9rem 4rem 8rem;
 }
+/*footer*/
+/* .footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #666;
+}
+
+.footer-icon:hover {
+  color: #000;
+}
 footer {
   height: 50px;
   background-color: #fff;
+} */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+footer .col {
+  flex: 1;
+  min-width: 200px;
+}
+
+footer h3 {
+  margin-bottom: 15px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+footer p i {
+  font-size: 40px;
+  margin-inline: 1rem;
+  margin-bottom: 2.5rem;
 }

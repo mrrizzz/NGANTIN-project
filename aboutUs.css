@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+  box-shadow: 0 3px 9px 0px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+.navbar .nav-item {
+  margin-top: 0.5rem;
+}
+.navbar .nav-item a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid #010101;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+.navbar .nav-item a:hover::after {
+  transform: scaleX(0.9);
+}
+.container-login{
+  display: inline-block;
+}
+#isi img {
+  margin: 8rem 3rem;
+  width: 540px;
+  height: 540px;
+}
+#isi .kanan {
+  margin: 8rem;
+  margin-top: 16rem;
+}
+.typing {
+  width: 100%;
+  animation: typing 2s steps(14), blink-caret 0.75s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+.animate__fadeInLeft{
+  animation-duration: 3s;
+}
+@keyframes typing {
+  from { width: 0 }
+}
+
+@keyframes blink-caret {
+  50% { border-color: transparent; }
+}
+
+/* .kanan h1 {
+  position: relative;
+  overflow: hidden;
+  border-right: 2px solid #000; /* Atur border-right sesuai kebutuhan 
+  white-space: nowrap;
+  animation: typing 3s steps(20) forwards; /* Sesuaikan durasi animasi dan langkah-langkahnya 
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.kanan h1::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  border-right: 2px solid #000; /* Atur border-right sesuai kebutuhan 
+  animation: removeBorder 1s forwards;  Sesuaikan durasi animasi 
+}
+
+@keyframes removeBorder {
+  to {
+    width: 0;
+  }
+} */
+.animate__backInRight{
+  animation-duration:2.5s;
+}
+.animate__fadeInDown{
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+}
+#footer h3 {
+  margin-bottom: 2rem;
+  
+}
+#footer .kiri p {
+  padding-bottom: 2.25rem;
+  font-size: 20px;
+  margin-left: 0.5rem;
+  text-align: left;
+}
+#footer .kiri {
+  padding-left: 5rem;
+}
+#footer .kiri span {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#footer .tengah .head {
+  font-size: 40px;
+  color: #00235e;
+  margin-bottom: 0.5rem;
+}
+#footer .tengah .follow {
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+#footer .tengah p i {
+  font-size: 40px;
+  margin-inline: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+#footer .kanan p {
+  font-size: 20px;
+  padd
+}
+/* 
+main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #0077b6;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+} */
