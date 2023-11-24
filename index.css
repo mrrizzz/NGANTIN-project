@@ -26,10 +26,6 @@
 .jumbotron {
   margin-bottom: 3rem;
 }
-/* .jumbotron {
-  animation-duration: 1.5s;
-} */
-
 /* Atur properti awal elemen yang akan dianimasikan */
 .jumbotron {
   opacity: 0;
@@ -90,6 +86,22 @@
   font-size: 25px;
   margin: 1rem 0.5rem;
   cursor: pointer;
+  border-radius: 30px;
+}
+.custom-button2:hover {
+  background-color: black;
+  font-family: "Poppins";
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
   border-radius: 30px;
 }
 /*why*/

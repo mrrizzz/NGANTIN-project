@@ -25,3 +25,12 @@ window.addEventListener("scroll", handleScroll);
 
 // Panggil handleScroll untuk memeriksa status awal
 handleScroll();
+
+document.addEventListener("DOMContentLoaded", () => {
+  const navigateButton = document.querySelector("#login-button");
+
+  navigateButton.addEventListener("click", () => {
+    // Ganti URL sesuai dengan halaman yang ingin Anda tuju
+    window.location.href = "http://localhost:5500/beranda.html";
+  });
+});
